@@ -10,6 +10,7 @@ export default define.page(function App({ Component }) {
           name="description"
           content="The Hay Wire is a project in-development to capture the stories of the people of Hay-on-Wye, a small town on the border between England and Wales."
         />
+        <link rel="icon" type="image/x-icon" href="/favicon.png" />
         <title>The Hay Wire</title>
       </head>
       <body>
