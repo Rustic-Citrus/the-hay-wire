@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Walter+Turncoat&display=swap');
+
 @import "tailwindcss";
-.fresh-gradient {
-  background-color: rgb(134, 239, 172);
-  background-image: linear-gradient(
-    to right bottom,
-    rgb(219, 234, 254),
-    rgb(187, 247, 208),
-    rgb(254, 249, 195)
-  );
+@plugin "daisyui";
+
+.font-playful {
+  font-family: "Walter Turncoat", "Comic Sans", sans-serif;
+}
+
+.custom-path-01 {
+  stroke-dasharray: 1;
+	stroke-dashoffset: 1;
+	animation: draw 4s ease-in-out forwards;
+}
+
+@keyframes draw {
+	to { stroke-dashoffset: 0; }
 }
