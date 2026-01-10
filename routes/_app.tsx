@@ -2,11 +2,15 @@ import { define } from "../utils.ts";
 
 export default define.page(function App({ Component }) {
   return (
-    <html>
+    <html lang="en">
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>the-hay-wire</title>
+        <meta
+          name="description"
+          content="The Hay Wire is a project in-development to capture the stories of the people of Hay-on-Wye, a small town on the border between England and Wales."
+        />
+        <title>The Hay Wire</title>
       </head>
       <body>
         <Component />

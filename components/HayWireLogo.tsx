@@ -2,12 +2,12 @@ export default function HayWireLogo() {
   return (
     <div class="flex flex-col w-full">
       <div class="flex-1 grid place-items-center">
-        <h1 class="col-start-1 row-start-1 z-10 mb-32 sm:mb-36 md:mb-72 xl:mb-108 font-playful text-center text-4xl sm:text-5xl md:text-7xl xl:text-9xl">
+        <h1 class="col-start-1 row-start-1 z-10 mb-48 sm:mb-72 xl:mb-108 font-[Walter_Turncoat] text-center text-4xl sm:text-5xl md:text-7xl xl:text-9xl">
           The Hay Wire
         </h1>
         <svg
           viewBox="0 0 600 400"
-          class="col-start-1 row-start-1 w-full h-full"
+          class="col-start-1 row-start-1 w-full max-w-250"
         >
           <path
             d="M 50,200 
@@ -26,9 +26,12 @@ export default function HayWireLogo() {
             stroke-linecap="round"
             stroke-linejoin="round"
             pathLength="1"
-            class="custom-path-01 stroke-primary-content"
+            class="custom-path-01 stroke-base-content"
           />
         </svg>
+        <p class="col-start-1 row-start-1 mt-72 text-lg text-center sm:text-2xl px-8">
+          Stories from a town with above average quirkiness.
+        </p>
       </div>
     </div>
   );
